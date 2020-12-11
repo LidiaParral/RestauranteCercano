@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dam.seleccionrestaurante_lpr">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/restaurantes_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/restaurantes_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".SeleccionActivity">
+        </activity>
+        <activity android:name=".DatosActivity">
+        </activity>
+        <activity android:name=".IndicacionesActivity">
+        </activity>
+        <activity android:name=".PantallaInicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">¿Qué restaurante elijo?</string>
+    <string name="tv_bienvenida">Bienvenido a la aplicación, ¿qué restaurante elijo?</string>
+    <string name="et_nombre">Introduzca su nombre</string>
+    <string name="btn_acceder">ACCEDER</string>
+    <string name="no_data">Debe introducir un nombre para acceder</string>
+    <string name="tv_indicaciones">Hola %1$s, introduce los datos de los dos restaurantes entre los que quieres elegir</string>
+    <string name="btn_restaurante1">Introducir datos restaurante1</string>
+    <string name="btn_restaurante2">Introducir datos restaurante2</string>
+    <string name="btn_calcular_selec">Calcular Selección de Restaurante</string>
+    <string name="tv_datos">Por favor %1$s , introduce los datos del %2$s restaurante</string>
+    <string name="tv_nombre">Nombre:</string>
+    <string name="et_nom">Introduce el nombre del restaurante</string>
+    <string name="tv_tlf">Teléfono:</string>
+    <string name="et_tlf">Introduce el télefono</string>
+    <string name="tv_web">Web:</string>
+    <string name="et_web">Introduce la web</string>
+    <string name="tv_distancia">Distancia:</string>
+    <string name="et_distancia">Introduce la distancia en km</string>
+    <string name="tv_trafico">Indicador de Tráfico:</string>
+    <string name="rb_poco">POCO</string>
+    <string name="rb_normal">NORMAL</string>
+    <string name="rb_mucho">MUCHO</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="tv_seleccion">%1$s, el restaurante al que tardarás menos en ir es:</string>
+    <string name="tv_nom_tarda_menos">%1$s</string>
+    <string name="tv_tlf_tarda_menos">Telf: %1$s</string>
+    <string name="tv_web_tarda_menos">Web: %1$s</string>
+    <string name="btn_llamar">Llamar</string>
+    <string name="btn_visitar_web">Visitar Web</string>
+    <string name="tv_dist_tarda_menos">Distancia: %1$s km</string>
+    <string name="tv_tiempo">Tiempo Estimado: %1$s min</string>
+    <string name="btn_volver">Volver a empezar</string>
+    <string name="no_datos">Debes introducir todos los datos</string>
+    <string name="tv_nombre_rest">Nombre: %1$s</string>
+    <string name="tv_web_rest">Web: %1$s</string>
+    <string name="tv_tlf_rest">Teléfono: %1$s</string>
+    <string name="tv_nom_rest2">Nombre: %1$s</string>
+    <string name="tv_web_rest2">Web: %1$s</string>
+    <string name="tv_tlf_rest2">Teléfono: %1$s</string>
+    <string name="msg_dist_incorrecta">Debe ser un valor númerico</string>
+    <string name="no_activity">No se ha encontrado ninguna aplicación capaz de llevar a cabo la acción solicitada</string>
+
+</resources>

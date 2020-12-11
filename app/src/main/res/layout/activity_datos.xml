@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:padding="@dimen/dimension"
+    tools:context=".DatosActivity">
+
+  <TextView
+      android:id="@+id/tvDatos"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="24dp"
+      android:text="@string/tv_datos"
+      android:textColor="@color/azulTexto"
+      android:textSize="24sp"
+      android:textStyle="bold"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="98dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/tv_nombre"
+        android:textColor="@color/azulTexto"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/et_nom"
+        android:inputType="text" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_marginTop="168dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/tv_tlf"
+        android:textColor="@color/azulTexto"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/et_tlf"
+        android:inputType="number" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="238dp"
+      android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/tv_web"
+        android:textSize="20sp"
+        android:textColor="@color/azulTexto"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/et_web"
+        android:inputType="textWebEditText" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="308dp"
+      android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/tv_distancia"
+        android:textSize="20sp"
+        android:textColor="@color/azulTexto"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/et_distancia"
+        android:inputType="numberDecimal" />
+  </LinearLayout>
+
+
+  <TextView
+      android:id="@+id/tvTrafico"
+      android:layout_width="329dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="398dp"
+      android:text="@string/tv_trafico"
+      android:textColor="@color/azulTexto"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <RadioGroup
+      android:id="@+id/rbGroup"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:orientation="horizontal"
+      android:layout_below="@id/tvTrafico">
+
+      <RadioButton
+          android:id="@+id/rbPoco"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/rb_poco"
+          android:checked="true"
+          android:layout_weight="1"
+          android:textColor="@color/azulTexto"
+          android:textStyle="bold"
+          android:textSize="18sp"/>
+
+      <RadioButton
+          android:id="@+id/rbNormal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/rb_normal"
+          android:checked="false"
+          android:layout_weight="1"
+          android:textColor="@color/azulTexto"
+          android:textStyle="bold"
+          android:textSize="18sp"/>
+
+      <RadioButton
+          android:id="@+id/rbMucho"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/rb_mucho"
+          android:checked="false"
+          android:layout_weight="1"
+          android:textColor="@color/azulTexto"
+          android:textStyle="bold"
+          android:textSize="18sp"/>
+  </RadioGroup>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="20dp"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_aceptar"
+        android:layout_weight="3"
+        android:textColor="@color/white"
+        android:background="@color/colorBoton"
+        android:onClick="aceptar"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_cancelar"
+        android:layout_weight="3"
+        android:textColor="@color/white"
+        android:background="@color/colorBoton"
+        android:onClick="cancelar"/>
+
+
+  </LinearLayout>
+
+
+</RelativeLayout>
