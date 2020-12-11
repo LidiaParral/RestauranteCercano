@@ -1,5 +1,7 @@
 # Restaurante
 
-| Inicio              | Indicaciones              | Datos | Selección |
-|:--------------------|:--------------------------|:------|:----------|
-| ![](img/inicio.png) | ![](img/indicaciones.png) | ![](img/datos.png) | ![](img/seleccion.png)        |
+* Restaurante más cercano
+
+Inicio | Indicaciones | Datos | Selección
+------ | ------------ | ----- | ---------
+![](../img/Inicio.jpg) | ![](../img/Indicaciones.jpg) | ![](../img/Datos.jpg) | ![](../img/Seleccion.jpg)
